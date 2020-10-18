@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/default/production/002-S-01_SLS_to_CAN_bus_interface.X.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>8192</length>
+      <used>2652</used>
+      <free>5540</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>131136</length>
+      <used>21363</used>
+      <free>109773</free>
+    </memory>
+  </executable>
+</project>
