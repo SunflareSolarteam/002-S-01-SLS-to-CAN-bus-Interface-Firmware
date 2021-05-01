@@ -75,7 +75,7 @@ void PIN_MANAGER_Initialize (void)
      ***************************************************************************/
     TRISA = 0x001F;
     TRISB = 0xFBEB;
-    TRISC = 0x32F3;
+    TRISC = 0x32DB;
 
     /****************************************************************************
      * Setting the Weak Pull Up and Weak Pull Down SFR(s)
@@ -99,7 +99,7 @@ void PIN_MANAGER_Initialize (void)
      ***************************************************************************/
     ANSELA = 0x0007;
     ANSELB = 0x0229;
-    ANSELC = 0x1210;
+    ANSELC = 0x1240;
 
 
     /****************************************************************************
@@ -107,12 +107,12 @@ void PIN_MANAGER_Initialize (void)
      ***************************************************************************/
     __builtin_write_OSCCONL(OSCCON & 0xbf); // unlock PPS
 
-    RPOR11bits.RP51R = 0x0003;    //RC3->UART2:U2TX
+    RPOR14bits.RP56R = 0x0001;    //RC8->UART1:U1TX
+    RPINR19bits.U2RXR = 0x0034;    //RC4->UART2:U2RX
     RPOR15bits.RP58R = 0x000E;    //RC10->ECAN1:C1TX
     RPINR18bits.U1RXR = 0x0028;    //RB8->UART1:U1RX
-    RPINR19bits.U2RXR = 0x0036;    //RC6->UART2:U2RX
     RPINR26bits.C1RXR = 0x0031;    //RC1->ECAN1:C1RXR
-    RPOR14bits.RP56R = 0x0001;    //RC8->UART1:U1TX
+    RPOR12bits.RP53R = 0x0003;    //RC5->UART2:U2TX
 
     __builtin_write_OSCCONL(OSCCON | 0x40); // lock PPS
 

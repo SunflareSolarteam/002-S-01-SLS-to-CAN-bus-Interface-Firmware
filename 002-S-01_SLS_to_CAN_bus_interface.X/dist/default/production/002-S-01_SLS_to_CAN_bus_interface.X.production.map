@@ -207,7 +207,7 @@ section                    address      alignment gaps    total length  (dec)
 .bss                        0x17f4                   0             0x8  (8)
 .data                       0x17fc                   0             0x2  (2)
 .bss                        0x17fe                   0             0x2  (2)
-_05AB6E405f8c3e5d           0x1800                   0           0x200  (512)
+_05A96E40608d5377           0x1800                   0           0x200  (512)
 .data                       0x1a00                   0            0x22  (34)
 .bss                        0x1a22                   0            0x20  (32)
 .data                       0x1a42                   0            0x1a  (26)
@@ -896,27 +896,27 @@ __FBTSEQ
  *(.comment)
  .comment         0x000000         0x5e c:/program files (x86)/microchip/xc16/v1.36/bin/bin/../../lib\liblega-c-elf.a(xfiles.EP_eo)
 
-.debug_info       0x000000      0x14881
+.debug_info       0x000000      0x14bfe
  *(.debug_info)
- .debug_info      0x000000        0x4a1 build/default/production/mcc_generated_files/reset.o
- .debug_info      0x0004a1       0x2af7 build/default/production/mcc_generated_files/system.o
- .debug_info      0x002f98        0x5a7 build/default/production/mcc_generated_files/traps.o
- .debug_info      0x00353f        0x47e build/default/production/mcc_generated_files/clock.o
- .debug_info      0x0039bd        0x62d build/default/production/mcc_generated_files/interrupt_manager.o
- .debug_info      0x003fea       0x2b0b build/default/production/mcc_generated_files/mcc.o
- .debug_info      0x006af5        0x86c build/default/production/mcc_generated_files/pin_manager.o
- .debug_info      0x007361        0x6f8 build/default/production/mcc_generated_files/uart1.o
- .debug_info      0x007a59        0xf28 build/default/production/mcc_generated_files/uart2.o
- .debug_info      0x008981       0x3145 build/default/production/mcc_generated_files/can1.o
- .debug_info      0x00bac6        0x8cd build/default/production/mcc_generated_files/tmr1.o
- .debug_info      0x00c393       0x1b42 build/default/production/mcc_generated_files/ecan1.o
- .debug_info      0x00ded5       0x1846 build/default/production/mcc_generated_files/dma.o
- .debug_info      0x00f71b       0x2557 build/default/production/mcc_generated_files/adc1.o
- .debug_info      0x011c72        0x47f build/default/production/main.o
- .debug_info      0x0120f1        0x3be build/default/production/softwaretimer.o
- .debug_info      0x0124af        0x73c build/default/production/sls.o
- .debug_info      0x012beb        0x402 build/default/production/canbus.o
- .debug_info      0x012fed       0x1894 build/default/production/Temp_read.o
+ .debug_info      0x000000        0x4d0 build/default/production/mcc_generated_files/reset.o
+ .debug_info      0x0004d0       0x2b26 build/default/production/mcc_generated_files/system.o
+ .debug_info      0x002ff6        0x5d6 build/default/production/mcc_generated_files/traps.o
+ .debug_info      0x0035cc        0x4ad build/default/production/mcc_generated_files/clock.o
+ .debug_info      0x003a79        0x65c build/default/production/mcc_generated_files/interrupt_manager.o
+ .debug_info      0x0040d5       0x2b3a build/default/production/mcc_generated_files/mcc.o
+ .debug_info      0x006c0f        0x89b build/default/production/mcc_generated_files/pin_manager.o
+ .debug_info      0x0074aa        0x727 build/default/production/mcc_generated_files/uart1.o
+ .debug_info      0x007bd1        0xf57 build/default/production/mcc_generated_files/uart2.o
+ .debug_info      0x008b28       0x3174 build/default/production/mcc_generated_files/can1.o
+ .debug_info      0x00bc9c        0x8fc build/default/production/mcc_generated_files/tmr1.o
+ .debug_info      0x00c598       0x1b71 build/default/production/mcc_generated_files/ecan1.o
+ .debug_info      0x00e109       0x1875 build/default/production/mcc_generated_files/dma.o
+ .debug_info      0x00f97e       0x2586 build/default/production/mcc_generated_files/adc1.o
+ .debug_info      0x011f04        0x4ae build/default/production/main.o
+ .debug_info      0x0123b2        0x3ed build/default/production/softwaretimer.o
+ .debug_info      0x01279f        0x76b build/default/production/sls.o
+ .debug_info      0x012f0a        0x431 build/default/production/canbus.o
+ .debug_info      0x01333b       0x18c3 build/default/production/Temp_read.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000       0x15df
@@ -3586,9 +3586,9 @@ __c30_signature
  .data              0x103a        0x61c build/default/production/Temp_read.o
                     0x103a                  _temp_lookup_table
 
-_05AB6E405f8c3e5d
+_05A96E40608d5377
                     0x1800        0x200
- _05AB6E405f8c3e5d
+ _05A96E40608d5377
                     0x1800        0x200 build/default/production/mcc_generated_files/can1.o
 
 .bss                0x1656         0xa0
